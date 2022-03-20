@@ -1,9 +1,9 @@
 .navbar {
   display: flex;
   align-items: center;
-  padding: 25px 50px;
-  background-color: #ffc300;
-  color: #001d3d;
+  padding: 50px;
+  font-weight: normal;
+  position: relative;
 }
 
 .navbar ul {
@@ -13,6 +13,7 @@
 
 .navbar ul li {
   margin: 0 25px;
+  cursor: pointer;
 }
 
 .logo {

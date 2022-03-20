@@ -1,10 +1,11 @@
 import './App.css';
+import Hero from './components/Hero';
 import './styles/responsive.css'
-import Navbar from './components/Navbar';
+
 
 function App() {
   return (
-    <Navbar />
+    <Hero />
   );
 }
 
