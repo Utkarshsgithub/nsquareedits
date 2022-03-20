@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 25px 50px;
+  background-color: #ffc300;
+  color: #001d3d;
+}
+
+.navbar ul {
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar ul li {
+  margin: 0 25px;
+}
+
+.logo {
+  font-weight: bold;
+}
