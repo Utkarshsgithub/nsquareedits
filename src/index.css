@@ -54,11 +54,3 @@ list-style: none;
 .mb-0 {
   margin-bottom: 0;
 }
-
-/* MEDIA QUERRIES */
-
-/* @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-} */
