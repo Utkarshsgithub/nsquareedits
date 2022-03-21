@@ -1,0 +1,10 @@
+.cr {
+    margin: 200px 0;
+}
+
+.cr h1 {
+    font-size: 4rem;
+    background-image: linear-gradient(135deg, #ca0b2b 10%, #f5af19 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
