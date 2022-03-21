@@ -12,7 +12,6 @@ export default function Process() {
                 <li>Lorem, ipsum dolor.</li>
                 <li>Lorem, ipsum dolor.</li>
                 <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
             </ul>
         </div>
     </section>
