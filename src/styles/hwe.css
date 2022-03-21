@@ -1,10 +1,37 @@
 .hwe {
     margin: 200px 0;
+    display: flex;
+    align-items: center;
+}
+
+.hwe-image {
+    background: url('https://images.pexels.com/photos/7265927/pexels-photo-7265927.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260') no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 1600px;
 }
 
 .hwe h1 {
-    font-size: 4rem;
-    background-image: linear-gradient(135deg, #ca0b2b 10%, #f5af19 100%);
+    font-size: 2.5rem;
+    /* background-image: linear-gradient(135deg, #ca0b2b 10%, #f5af19 100%);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; */
+}
+
+.hwe ul {
+    margin-top: 25px;
+    font-size: 1.5rem;
+}
+
+.hwe ul li {
+    margin: 10px 0;
+}
+
+.hwe-image {
+    padding: 50px 0;
+}
+
+.hwe-text {
+    background-color: #ca0b2b;
+    padding: 50px;
 }
