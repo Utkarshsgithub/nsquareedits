@@ -16,9 +16,7 @@ export default function Hero() {
         <div className="hero-text">
           <h1>We Edit Videos</h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem non
-            nostrum inventore provident perferendis placeat dolorem fugit earum
-            deleniti? Dicta!
+            Helping Content Creators automate the demanding task of editing videos, in fast, high quality, and affordable manner.
           </p>
         </div>
       </div>
