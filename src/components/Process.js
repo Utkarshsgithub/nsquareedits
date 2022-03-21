@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/hwe.css'
+import '../styles/process.css'
 
-export default function HWE() {
+export default function Process() {
   return (
     <section className="hwe">
         <picture className='hwe-image'>

@@ -2,9 +2,10 @@ import './App.css';
 import CustomerReviews from './components/CustomerReview';
 import Hero from './components/Hero';
 import Services from './components/Services';
-import HWE from './components/HWE';
+import Process from './components/Process';
 import './styles/responsive.css'
 import Footer from './components/Footer';
+import About from './components/About';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <>
       <Hero />
       <Services />
-      <HWE />
+      <Process />
+      <About />
       <CustomerReviews />
       <Footer />
     </>
