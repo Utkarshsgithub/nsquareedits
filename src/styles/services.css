@@ -1,11 +1,17 @@
 .services {
-    margin: 200px 0;
+  margin: 200px 0;
 }
 
 .services h1 {
-    font-size: 4rem;
-    background-image: linear-gradient(135deg, #ca0b2b 10%, #f5af19 100%);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+  font-size: 4rem;
+  background-image: linear-gradient(135deg, #ca0b2b 10%, #f5af19 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+@media only screen and (max-width: 450px) {
+  .services h1 {
+    font-size: 3rem;
+  }
 }

@@ -57,3 +57,9 @@
     padding: 25px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .hwe h1 {
+    font-size: 2rem;
+  }
+}
