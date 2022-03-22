@@ -7,11 +7,11 @@ export default function Process() {
         <picture className='hwe-image'>
         </picture>
         <div className="hwe-text">
-            <h1>We Belive in Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+            <h1>We Belive in Lorem ipsum dolor sit Lorem, ipsum dolor.</h1>
             <ul className='remove-list-style'>
                 <li>Lorem, ipsum dolor.</li>
                 <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
+                <li style={{'marginBottom':'0'}}>Lorem, ipsum dolor.</li>
             </ul>
         </div>
     </section>

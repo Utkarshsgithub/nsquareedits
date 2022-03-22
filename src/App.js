@@ -13,10 +13,12 @@ function App() {
     <>
       <Hero />
       <Services />
-      <Process />
+      <section className="two"> 
       <About />
-      <CustomerReviews />
-      <Footer />
+        <Process />
+        <CustomerReviews />
+        <Footer />
+      </section>
     </>
   );
 }
