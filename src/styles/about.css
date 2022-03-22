@@ -14,4 +14,7 @@
   .about h1 {
     font-size: 3rem;
   }
+  .about {
+    padding: 100px 0;
+  }
 }

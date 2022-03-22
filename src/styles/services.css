@@ -14,4 +14,7 @@
   .services h1 {
     font-size: 3rem;
   }
+  .services {
+    margin: 100px 0;
+  }
 }

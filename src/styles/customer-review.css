@@ -11,6 +11,9 @@
 }
 
 @media only screen and (max-width: 450px) {
+  .cr {
+    margin: 100px 0;
+  }
   .cr h1 {
     font-size: 3rem;
   }
