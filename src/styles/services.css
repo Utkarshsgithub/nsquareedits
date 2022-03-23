@@ -10,11 +10,53 @@
   -webkit-background-clip: text;
 }
 
+.service-cards {
+  margin: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  padding: 25px;
+  background-color: #ca0b2b;
+  margin: 12.5px;
+  border-radius: 3px;
+}
+
+.service-card img {
+  height: 100px;
+  margin: 25px 0;
+  /* transform: translateY(-50%); */
+}
+
+.service-card p {
+  text-align: center;
+  margin: 25px 0;
+}
+
+@media only screen and (max-width: 650px) {
+  .service-cards {
+    margin: 50px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .service-cards {
+    margin: 25px;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .services h1 {
     font-size: 3rem;
   }
   .services {
-    margin: 100px 0;
+    margin: 1P00px 0;
   }
 }

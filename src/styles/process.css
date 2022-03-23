@@ -21,6 +21,7 @@
 
 .hwe ul {
   margin-top: 25px;
+  list-style: circle;
 }
 
 .hwe ul li {
