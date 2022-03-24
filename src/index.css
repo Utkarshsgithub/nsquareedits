@@ -65,3 +65,7 @@ list-style: none;
   background-color: #a5a5a5;
   border-radius: 3px;
 }
+
+* {
+  border: 2px solid red;
+}
