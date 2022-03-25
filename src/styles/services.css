@@ -1,5 +1,6 @@
 .services {
   margin: 200px 0;
+  margin-bottom: 0;
 }
 
 .services h1 {
@@ -12,8 +13,9 @@
 
 .service-cards {
   margin: 100px;
+  margin-bottom: 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 

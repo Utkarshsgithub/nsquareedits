@@ -21,6 +21,23 @@
   font-size: 5rem;
 }
 
+.wrapper {
+  display: flex;
+}
+
+.dynamic-text li {
+  list-style: none;
+  position: relative;
+}
+
+.dynamic-text li::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-left: 4px solid #fff;
+}
+
 .hero-text p {
   font-size: 1.2rem;
   width: 500px;
@@ -29,6 +46,7 @@
 
 .styled-text {
   font-size: 20rem;
+  font-size: bold;
   transform: rotate(-45deg);
   color: #ca0b2b;
   /* pointer-events: none; */
