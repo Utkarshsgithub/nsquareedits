@@ -30,15 +30,15 @@ footer hr {
 }
 
 .one {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .too {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .three {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 1150px) {

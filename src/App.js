@@ -1,4 +1,4 @@
-import CustomerReviews from './components/CustomerReview';
+import Testimonials from './components/Testimonials';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Process from './components/Process';
@@ -18,7 +18,7 @@ function App() {
         <About />
         <Process />
         <PastWork />
-        <CustomerReviews />
+        <Testimonials />
         <Footer />
       </section>
     </>
