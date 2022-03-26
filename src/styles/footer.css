@@ -1,3 +1,54 @@
 footer {
-    
+  padding: 100px 200px;
+  background-color: #0a0a0a;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+footer h1 {
+  color: #ca0b2b;
+  font-size: 2rem;
+}
+
+footer strong {
+  margin-bottom: 25px;
+}
+
+footer hr {
+  margin-bottom: 50px;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.one {
+    margin-bottom: 25px;
+}
+
+.too {
+    margin-bottom: 25px;
+}
+
+.three {
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 1150px) {
+  footer {
+    padding: 100px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  footer {
+    padding:25px;
+  }
 }
