@@ -28,8 +28,10 @@ export default function Navbar() {
       <ul id="ls-tabs" className="remove-list-style">
         <li>Home</li>
         <li>Services</li>
-        <li>About</li>
-        <li className="mr-0">Reviews</li>
+        <li>Portfolio</li>
+        <li>About Us</li>
+        <li>Careers</li>
+        <li className='cta mr-0'>Edit My Videos</li>
       </ul>
       <div onClick={menuClicked} ref={button} id="button">
         <div id="bars"></div>

@@ -4,6 +4,7 @@
   padding: 50px;
   font-weight: normal;
   position: relative;
+  align-items: center;
 }
 
 #ls-tabs {
@@ -12,6 +13,7 @@
 }
 
 #ls-tabs li {
+  padding-top: 10px;
   margin: 0 25px;
   cursor: pointer;
 }
@@ -88,6 +90,13 @@
   z-index: 99;
     background: #ca0b2b;
   transform: rotate(-45deg);
+}
+
+.cta {
+  padding: 10px;
+  background-color: #0a0a0a;
+  color: #fff;
+  border-radius: 3px;
 }
 
 @media only screen and (max-width: 900px) {

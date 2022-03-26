@@ -14,13 +14,15 @@ export default function Footer() {
 
         <div className="three">
           <strong>Call us at</strong>
-          <p><a href="/" >+91 3044708193</a></p>
+          <p><a href="tel:+919664490564" >+91 3044708193</a></p>
         </div>
       </section>
+
       <hr />
+
       <section className="footer-bottom-content">
-      <p>© 2022-2023 NSquare Edits.</p>
-      <p>All rights reserved.</p>
+        <p>© 2022-2023 NSquare Edits.</p>
+        <p>All rights reserved.</p>
       </section>
     </footer>
   )
