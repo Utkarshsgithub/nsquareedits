@@ -31,7 +31,7 @@ export default function Navbar() {
         <li>Portfolio</li>
         <li>About Us</li>
         <li>Careers</li>
-        <li className='cta mr-0'>Edit My Videos</li>
+        <li className='cta' style={{'marginRight':'0'}}>Edit My Videos</li>
       </ul>
       <div onClick={menuClicked} ref={button} id="button">
         <div id="bars"></div>

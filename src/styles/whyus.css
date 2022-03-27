@@ -17,4 +17,7 @@
   .whyus h1 {
     font-size: 3rem;
   }
+  .whyus {
+    padding: 0;
+  }
 }
