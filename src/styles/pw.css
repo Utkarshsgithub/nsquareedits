@@ -10,11 +10,32 @@
   -webkit-background-clip: text;
 }
 
+.pw-section {
+  margin: 100px 50px;
+  margin-bottom: 0;
+}
+
+.videos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+iframe {
+  width: 400px;
+  height: 200px;
+  margin: 12.5px;
+}
+
 @media only screen and (max-width: 450px) {
-  .pw h1 {
+  .pw {
     margin: 100px 0;
   }
   .pw h1 {
     font-size: 3rem;
+  }
+  .pw-section {
+    margin: 50px;
+    margin-bottom: 0;
   }
 }
