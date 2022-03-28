@@ -5,7 +5,7 @@ import Process from './components/Process';
 import './styles/responsive.css'
 import Footer from './components/Footer';
 import About from './components/About';
-import WhyUs from './components/WhyUs';
+// import WhyUs from './components/WhyUs';
 import PastWork from './components/PastWork';
 
 function App() {
@@ -13,11 +13,10 @@ function App() {
     <>
       <Hero />
       <Services />
-      <WhyUs />
+        <PastWork />
       <section className="two"> 
         <About />
         <Process />
-        <PastWork />
         <Testimonials />
         <Footer />
       </section>

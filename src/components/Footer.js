@@ -10,6 +10,7 @@ export default function Footer() {
         <div className="too">
           <strong>Reach out to us</strong>
           <p><a href="mailto:nishkarshagarwal@gmail.com" >nishkarshagarwal@gmail.com</a></p>
+
         </div>
 
         <div className="three">
