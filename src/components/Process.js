@@ -11,10 +11,10 @@ export default function Process() {
         <div className="hwe-text">
             <h1>We Are Different From Other Agencies Because Of The Following:</h1>
             <ul>
-                <li>Affordabe Charges - Starting From &#8377;499</li>
-                <li>Top Notch Quality</li>
-                <li>Unlimited Revisions</li>
-                <li style={{'marginBottom':'0'}}>Fast Delivery - In &#60;3 Days</li>
+                <li><strong>Affordabe Charges</strong> - Starting From &#8377;499</li>
+                <li><strong>Top Notch Quality</strong></li>
+                <li><strong>Unlimited Revisions</strong></li>
+                <li style={{'marginBottom':'0'}}><strong>Fast Delivery</strong> - In &#60;3 Days</li>
             </ul>
         </div>
     </section>

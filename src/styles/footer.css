@@ -10,6 +10,10 @@ footer {
   flex-wrap: wrap;
 }
 
+.footer-content a {
+  margin: 6.125px 0;
+}
+
 footer h1 {
   color: #ca0b2b;
   font-size: 2rem;

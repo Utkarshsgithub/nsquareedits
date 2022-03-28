@@ -10,12 +10,13 @@ export default function Footer() {
         <div className="too">
           <strong>Reach out to us</strong>
           <p><a href="mailto:nishkarshagarwal@gmail.com" >nishkarshagarwal@gmail.com</a></p>
-
+          <p><a href="tel:+919664490564" >+91 3044708193</a></p>
         </div>
 
         <div className="three">
-          <strong>Call us at</strong>
-          <p><a href="tel:+919664490564" >+91 3044708193</a></p>
+          <strong>Socials</strong>
+          <p><a href="https://instagram.com" >Instagram</a></p>
+          <p><a href="https://youtube.com" >YouTube</a></p>
         </div>
       </section>
 
