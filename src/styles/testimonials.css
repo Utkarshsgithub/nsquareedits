@@ -22,7 +22,7 @@
 
 .testimonial p {
   text-align: center;
-  width: 100%;
+  width: 600px;
 }
 
 .testimonial {
@@ -65,6 +65,12 @@
   }
   .cr h1 {
     font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .testimonial p {
+    width: 100%;
   }
 }
 

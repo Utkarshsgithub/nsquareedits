@@ -15,7 +15,7 @@
   margin: 100px;
   margin-bottom: 0;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -49,16 +49,19 @@
 }
 
 @media only screen and (max-width: 450px) {
+  .services h1 {
+    font-size: 3rem;
+  }
+  .services {
+    margin: 100px 0;
+  }
   .service-cards {
     margin: 25px;
   }
 }
 
-@media only screen and (max-width: 450px) {
-  .services h1 {
-    font-size: 3rem;
-  }
-  .services {
-    margin: 1P00px 0;
+@media only screen and (max-width: 400px) {
+  .service-cards {
+    margin: 25px 5px;
   }
 }

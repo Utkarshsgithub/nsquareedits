@@ -28,9 +28,13 @@
   background-color: #fff;
   height: 10000px;
   width: 100%;
-  transition: all .3s ease-in-out;
+  transition: all .2s ease-in-out;
   transform: translateX(100%);
   color: #ca0b2b;
+}
+
+.navbar-menu h1 {
+  position: absolute;
 }
 
 #button {
@@ -99,7 +103,7 @@
   border-radius: 3px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   #ls-tabs {
     display: none;
   }
