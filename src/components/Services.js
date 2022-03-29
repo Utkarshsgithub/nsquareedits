@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/services.css";
-import yt from "../images/youtube.png"
+import yt from "../images/youtuber.png"
+import head from "../images/vlogger.png"
+import vlog from "../images/vlog.png"
 
 export default function Services() {
   return (
@@ -14,12 +16,12 @@ export default function Services() {
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
         </div>
         <div className="service-card">
-          <img src="yt" alt="" />
+          <img src={vlog} alt="" />
           <h3>Vlogs</h3>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, quo!</p>
         </div>
         <div className="service-card">
-          <img src="yt" alt="" />
+          <img src={head} alt="" />
           <h3>Talking Heads</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, delectus.</p>
         </div>
