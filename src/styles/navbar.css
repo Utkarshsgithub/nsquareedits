@@ -45,6 +45,10 @@
   margin: 25px 0;
 }
 
+.navbar-menu ul li:hover {
+  color: #ca0b2b;
+}
+
 #button {
   margin-left: auto;
   display: none;
@@ -120,5 +124,11 @@
   }
   .navbar-menu {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
+    padding: 25px;
   }
 }

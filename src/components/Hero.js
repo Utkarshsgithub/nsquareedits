@@ -10,11 +10,11 @@ export default function Hero() {
 
       <div className="styled-text">
 
-        <h1 id="st-1">Editing</h1>
+        <h1 id="st-1">Video</h1>
 
         <h1 id="st-2">Editing</h1>
 
-        <h1 id="st-3">Editing</h1>
+        <h1 id="st-3">Video</h1>
 
         <h1 id="st-4">Editing</h1>
 
@@ -28,17 +28,7 @@ export default function Hero() {
 
           <div className="wrapper">
 
-            <h1 className="static-text">We Edit </h1>
-
-            <ul className="dynamic-text">
-
-              <li><h1> Videos</h1></li>
-
-              {/* <li><h1> Vlogs</h1></li>
-              <li><h1> Shorts</h1></li>
-              <li><h1> Talking Head</h1></li> */}
-              
-            </ul>
+            <h1 style={{'lineHeight':'90px'}} className="static-text">We Edit Videos</h1>
 
           </div>
 
