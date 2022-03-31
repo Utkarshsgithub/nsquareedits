@@ -5,12 +5,13 @@ import Process from './components/Process';
 import './styles/responsive.css'
 import Footer from './components/Footer';
 import About from './components/About';
-// import WhyUs from './components/WhyUs';
 import PastWork from './components/PastWork';
 
 function App() {
+  
   return (
     <>
+    <div className="container">
       <Hero />
       <Services />
         <PastWork />
@@ -20,6 +21,7 @@ function App() {
         <Testimonials />
         <Footer />
       </section>
+      </div>
     </>
   );
 }

@@ -3,6 +3,24 @@ import "../styles/navbar.css";
 
 export default function Navbar() {
 
+  function disableScroll() {
+
+    let TopScroll = window.pageYOffset || document.documentElement.scrollTop
+
+    let LeftScroll = window.pageXOffset || document.documentElement.scrollLeft
+    
+    // if scroll happens, set it to the previous value
+  
+    window.onscroll = function() {
+      window.scrollTo(LeftScroll, TopScroll);
+    };
+
+  }
+    
+  function enableScroll() {
+    window.onscroll = function() {};
+  }
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   let navbarMenu = useRef(null);
@@ -19,6 +37,8 @@ export default function Navbar() {
 
       navbarMenu.current.style.transform = "translateX(0)";
 
+      disableScroll()
+
     } else {
 
       button.current.classList.remove("open");
@@ -26,6 +46,8 @@ export default function Navbar() {
       setMenuOpen(false);
 
       navbarMenu.current.style.transform = "translateX(100%)";
+
+      enableScroll()
 
     }
 
