@@ -23,18 +23,26 @@
 }
 
 .navbar-menu {
+  z-index: 50;
   display: none;
-  position: absolute;
+  position: fixed;
+  top: 0;
+  right: 0;
   background-color: #fff;
   height: 10000px;
-  width: 100%;
+  width:90%;
   transition: all .2s ease-in-out;
   transform: translateX(100%);
-  color: #ca0b2b;
+  color: #111;
 }
 
-.navbar-menu h1 {
-  position: absolute;
+.navbar-menu ul {
+  margin: 200px 0 0 100px;
+  list-style: none;
+}
+
+.navbar-menu ul li {
+  margin: 25px 0;
 }
 
 #button {
@@ -111,6 +119,6 @@
     display: flex;
   }
   .navbar-menu {
-    display: flex;
+    display: block;
   }
 }
